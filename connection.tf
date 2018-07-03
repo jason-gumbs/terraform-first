@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("../../account.json")}"
-  provider    = "coastal-campus-207114"
-  region      = "us-west1"
+  credentials = "${file("../account1.json")}"
+  project     = "coastal-campus-207114"
+  region      = "us-east1"
 }
